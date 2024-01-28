@@ -2,7 +2,7 @@ import cv2
 vedio = cv2.VideoCapture("video (2160p).mp4")
 out = cv2.imread("OIP.jpeg")
 i=0
-option=2  # 1 fro fast,2 for slow
+option=2  # 1 for fast,2 for slow
 while True:
     i+=1
     ret, frame = vedio.read()
